@@ -6,6 +6,7 @@
 body {
   display: flex;
   overflow-x: hidden;
+  position: static;
 }
 
 pre {
@@ -13,9 +14,11 @@ pre {
   padding: 30px;
   line-height: 2;
 }
+
 nav ul li {
   list-style: none;
 }
+
 nav {
   width: 250px;
   height: 100%;
@@ -24,19 +27,23 @@ nav {
   position: fixed;
   border-right: 3px solid rgb(185, 185, 183);
 }
+
 main {
   margin-left: 250px;
   padding-left: 30px;
 }
+
 nav a {
   text-decoration: none;
   color: black;
   display: block;
   border-top: 1px solid black;
 }
+
 nav h2 {
   text-align: center;
 }
+
 nav ul {
   margin-left: 0;
   padding-left: 0;
